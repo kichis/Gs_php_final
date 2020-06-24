@@ -1,0 +1,235 @@
+.body{
+    width: 100%;
+    height:2000px;
+    font-family: 'Noto Serif JP', serif;
+    /* ^効果がない */
+    color: rgba(255, 255, 255, 0.76);
+    background-color: black;
+}
+
+#mainImage{
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/candle_2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#inst{
+    padding-top: 200px;
+    margin-left: 140px;
+}
+
+#sField{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* menu */
+.navbar{
+     background-color: black;
+}
+
+nav a{
+    font-family: 'Noto Serif JP', serif;
+    color: whitesmoke;
+}
+
+nav a:hover{
+    text-decoration: none;
+}
+
+#name{
+    font-family: 'Noto Serif JP', serif;
+    color: tomato;
+}
+
+#name p{
+    margin: 0;
+}
+
+#name a{
+    font-family: 'Sawarabi Gothic', sans-serif;
+    margin-right: 0;
+    margin-left: 50px;
+}
+
+/* menu_visit */
+#login{
+    margin-right: 15px;
+}
+
+#login a{
+    font-family: 'Sawarabi Gothic', sans-serif; 
+}
+
+#login:hover{
+    color: whitesmoke;
+}
+
+/* home */
+#storyArea{
+    width: 700px;
+    height: 1000px;
+    background-image: url(../img/hand.jpeg);
+    position: relative;
+    margin-top: 30px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.under{
+    width: 100%;
+    height: 1000px;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+}
+
+#storyArea .over{
+    width: 600px;
+    height: auto;
+    color: whitesmoke;
+    position: absolute;
+    margin: 20px auto auto 50px;
+
+}
+
+.over p{
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+#copyright{
+    height: 200px;
+    text-align: end;
+    opacity: 0.3;
+    padding-top: 100px;
+}
+
+/* login.php */
+#mainImage #login_1{
+    /* position: absolute; */
+    /* top: 250px; */
+    /* left: 330px; */
+    width: 500px;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#login_1 form{
+    background-color:gray;
+    opacity:0.5;
+}
+#login_1 div{
+    z-index: 10;
+    color: black;
+}
+
+/* signin.php */
+#mainImage #signin_1{
+    /* position: absolute; */
+    /* top: 250px; */
+    /* left: 330px; */
+    width: 500px;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#signin_1 form{
+    background-color:gray;
+    opacity:0.5;
+}
+#signin_1 div{
+    z-index: 10;
+    color: black;
+}
+
+/* mystory.php */
+/* #mainImage #gray{
+    width: 80%;
+    height: auto;
+    background-color: gray;
+    /* position: absolute; */
+    /* opacity: 0.2; */
+/* } */
+
+#mainImage #mystory, #mainImage #story_1{
+    width: 70%;
+    height: auto;
+    padding-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mystory h4{
+    padding-bottom: 40px;
+}
+
+#mystory p{
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+/* story.php */
+#mainImage #story_1{
+    width: 70%;
+    height: auto;
+    padding-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mainImage #story_2{
+    width: 70%;
+    height: auto;
+    margin-top:80px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* user_post */
+#user_post_1, #user_edit_1{
+    width: 70%;
+    height: auto;
+    padding-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* users.php */
+#adminImage{
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+
+#adminImage #kumo{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/kumo.jpg);
+    background-size: cover;
+    background-position: 85% 15%;
+    opacity: 0.3;
+}
+
+#adminImage #clear{
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    color: red;
+}
+
+#clear table{
+    background-color: transparent;
+}
+
+/* ayakas.php */
+#ayakas_1{
+    position: absolute;
+    top: 250px;
+    left: 330px;
+    color: red;
+}
